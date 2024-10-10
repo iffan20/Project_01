@@ -39,16 +39,8 @@ The analysis revealed that states with a participation rate of less than 40% ten
 ### Visualizations
 To support the findings, the following figures are included:
 
-1. Average SAT Score by Participation Rate Range
-   
-![](./Figure/MeanScore_byParRange.png)
-This figure illustrates the average SAT scores categorized by different participation rate ranges.
-
-
-2. SAT Scores of States with Less than 40% Participation Rate
-
-![](./Figure/MeanScore_ofStates_ByLess40Par.png)
-This figure displays the SAT scores for states with participation rates below 40%, highlighting those with above and below-average scores.
+* ['Average_SAT_by_Participation_Range'](./Figure/MeanScore_byParRange.png): This figure illustrates the average SAT scores categorized by different participation rate ranges.
+* ['States_with_Less_40%_Participation_Rate'](./Figure/MeanScore_ofStates_ByLess40Par.png): This figure displays the SAT scores for states with participation rates below 40%, highlighting those with above and below-average scores.
 
 ---
 
