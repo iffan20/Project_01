@@ -13,7 +13,7 @@ The dataset contains detailed information on SAT scores, structured as follows:
 - **Points in Each Session** : The scores achieved by students in individual SAT sections (e.g., Evidence-Based Reading and Writing, Math).
 - **Total Points** : The cumulative score of all sections for each student, representing their overall performance on the SAT.
 
-* [`sat_2017.csv`](./ata/sat_2017.csv): 2017 SAT Scores by State ([source](https://blog.collegevine.com/here-are-the-average-sat-scores-by-state/))
+* [`sat_2017.csv`](./data/sat_2017.csv): 2017 SAT Scores by State ([source](https://blog.collegevine.com/here-are-the-average-sat-scores-by-state/))
 * [`sat_2018.csv`](./data/sat_2018.csv): 2018 SAT Scores by State ([source](https://blog.collegevine.com/here-are-the-average-sat-scores-by-state/))
 * [`sat_2019.csv`](./data/sat_2019.csv): 2019 SAT Scores by State ([source](https://blog.prepscholar.com/average-sat-scores-by-state-most-recent))
 
@@ -21,19 +21,34 @@ The dataset contains detailed information on SAT scores, structured as follows:
 
 ### Methodology
 
-This study employs the following methodology to analyze the data:
+This study employs the following methodology to analyze the data using jupyter notebook [`Code.ipynb`](.Code.ipynb):
 - **Data Cleaning**: Handle missing values and ensure consistency across datasets.
 - **Exploratory Data Analysis (EDA)**: Visualize participation rates and SAT scores to identify trends.
-- **Statistical Analysis**: Perform correlation analysis to examine the relationship between participation rates and average SAT scores.
-  
+
 ---
 
-### Finding 
+### Findings 
 
 The analysis revealed that states with a participation rate of less than 40% tend to have above-average SAT scores. Key findings include:
 - Out of 22 states with participation rates of less than 40%, 19 states have above-average SAT scores.
 - Three states with below-average SAT scores are Ohio, New Mexico, and Oklahoma.
 - All 22 states have an ACT participation rate of at least 65%.
+
+---
+
+### Visualizations
+To support the findings, the following figures are included:
+
+1. Average SAT Score by Participation Rate Range
+   
+![](./Figure/MeanScore_byParRange.png)
+This figure illustrates the average SAT scores categorized by different participation rate ranges.
+
+
+2. SAT Scores of States with Less than 40% Participation Rate
+
+![](./Figure/MeanScore_ofStates_ByLess40Par.png)
+This figure displays the SAT scores for states with participation rates below 40%, highlighting those with above and below-average scores.
 
 ---
 
